@@ -8,4 +8,11 @@ import { Component } from '@angular/core';
 export class HeroesListComponent {
 
   heroesName: string[] = ['Spiderman', 'Ironman', 'Hulk', 'She Hulk', 'Thor'];
+  deleteHero?: string;
+
+  removeLasHero(): void {
+    this.deleteHero = this.heroesName.pop();
+  }
+
+
 }
