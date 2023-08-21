@@ -29,7 +29,7 @@ export class HeroComponent {
   }
 
   resetForm(): void {
-    //this.name = "ironman";
+    this.name = "ironman";
     this.age = 45;
 
     // Solo cambia la primera etiqueta h1 que encuentra en el html
